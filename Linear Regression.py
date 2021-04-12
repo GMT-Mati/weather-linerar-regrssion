@@ -60,5 +60,5 @@ plt.plot(X_test, y_pred, color="red", linewidth=2)
 plt.show()
 
 print("Średni błąd bezwzględny: ", metrics.mean_absolute_error(y_test, y_pred))
-print("Średni błąd kwadratoey: ", metrics.mean_squared_error(y_test, y_pred))
-print("podstawowy błąd średniokwadratowy: ", np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
+print("Średni błąd kwadratowy: ", metrics.mean_squared_error(y_test, y_pred))
+print("Podstawowy błąd średniokwadratowy: ", np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
